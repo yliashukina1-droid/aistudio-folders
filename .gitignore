@@ -1,0 +1,8 @@
+# Dependencies
+node_modules
+
+# Build output. Releases attach dist/aistudio-folders.user.js as an asset rather than tracking it.
+dist
+
+# macOS writes these unprompted into any directory it browses.
+.DS_Store

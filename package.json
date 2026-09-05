@@ -1,0 +1,38 @@
+{
+  "name": "aistudio-folders",
+  "version": "1.0.0",
+  "description": "Docked left-hand folder tree hierarchy for Google AI Studio History. Native UI match.",
+  "license": "MIT",
+  "author": "Sumit Kumar",
+  "homepage": "https://github.com/MiracleInvoker/aistudio-folders",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MiracleInvoker/aistudio-folders.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MiracleInvoker/aistudio-folders/issues"
+  },
+  "keywords": [
+    "userscript",
+    "tampermonkey",
+    "google-ai-studio",
+    "aistudio",
+    "folders",
+    "bookmarks"
+  ],
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bun run build.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "check": "bun run typecheck && bun run lint"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.12",
+    "@types/bun": "latest",
+    "typescript": "^7.0.2"
+  }
+}
