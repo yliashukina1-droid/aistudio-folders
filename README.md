@@ -1,5 +1,7 @@
 # AI Studio — Folders for History
 
+![AI Studio Folders Interface](assets/hero.png)
+
 A userscript that adds a folder tree to the history list in [Google AI Studio](https://aistudio.google.com), built to look like part of the app rather than something bolted onto it.
 
 Folders nest as deep as you like, chats are filed by dragging or in bulk, and the whole hierarchy lives in your browser's `localStorage`. Nothing is sent anywhere — there is no server, no account, and no network access of any kind.
