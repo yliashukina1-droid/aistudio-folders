@@ -1,0 +1,63 @@
+name: Bug report
+description: Something in the folder rail is broken or looks wrong
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This script works by restyling Google AI Studio's own page, so most
+        breakage comes from a change on their side.
+
+        **Please crop or blur your chat titles** in any screenshot, and don't
+        paste a saved copy of the page — it contains your chat titles and IDs.
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you expected, and what you got instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open aistudio.google.com/prompts
+        2. …
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Script version
+      description: The `@version` line in the installed userscript.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: env
+    attributes:
+      label: Browser and userscript manager
+      placeholder: "Chrome 141, Tampermonkey 5.3.3"
+    validations:
+      required: true
+
+  - type: textarea
+    id: console
+    attributes:
+      label: Console output
+      description: Anything prefixed `[AIS Folders]` in devtools. Optional.
+      render: text
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I'm on the latest release
+        - label: I reloaded the page after installing
+        - label: My screenshot has no private chat titles in it
